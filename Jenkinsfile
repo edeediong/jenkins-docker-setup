@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         registry = "edeediong/jenkins-demo"
-        registryCredential = dockerhub
+        registryCredential = 'dockerhub'
         dockerImage = ''
     }
     stages {
